@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: #f0f4f5;
+  font-family: system-ui, sans-serif;
+  color: #18272F;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background: #18272F;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.badge-person {
+  font-size: 12px;
+  background: #116B65;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #d1d8d9;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.home-welcome {
+  max-width: 600px;
+  margin: 60px auto;
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.home-welcome h2 {
+  color: #116B65;
+  margin-top: 0;
+}
